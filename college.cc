@@ -4,6 +4,11 @@
 //CS 2401
 //10/8/2015
 //********************
+
+/**@file college.cc
+  *@author Matthew Aberegg
+  *@brief a description
+**/
 #include "college.h"
 #include<cstdlib>
 #include<iostream>
@@ -11,12 +16,20 @@
 #include<string>
 using namespace std;
 
+
+/**
+  *@param this function takes a string s as a parameter
+  *@brief this function sets a course name equal to the string
+**/
 College::College(std::string s){
 	name = s;
 	head = NULL;
 }
 
-
+/**
+  *@param this function takes no parameters because it is the deconstructor for the college class
+  *@brief it deletes an object of type college
+**/
 College::~College(){
 	node * rmptr;
 	while(head != NULL){
@@ -26,6 +39,11 @@ College::~College(){
 	}
 }
 
+
+/**
+  *@param this function takes an object of type college as a parameter
+  *@brief this is the copy constructor for the college class
+**/
 College::College(const College& other){
 	if(other.head == NULL){
 		head = NULL;

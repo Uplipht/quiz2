@@ -8,6 +8,12 @@
 #include<iostream>
 #include<iomanip>
 #include<string>
+
+/**@file course.cc
+  *@author Matthew Aberegg
+  *@brief a description
+**/
+
 using namespace std;
 
 course::course(){

@@ -12,6 +12,12 @@
 #ifndef COURSE_H
 #define COURSE_H
 
+
+/**@file course.h
+  *@author Matthew Aberegg
+  *@brief a description
+**/
+
 class course{
     public:
 	course();

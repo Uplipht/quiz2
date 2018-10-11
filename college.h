@@ -5,6 +5,12 @@
 //10/8/2015
 //********************
 
+
+/**@file college.h
+  *@author Matthew Aberegg
+  *@brief a description
+**/
+
 #include <iostream>
 #include <fstream>
 #include <string>

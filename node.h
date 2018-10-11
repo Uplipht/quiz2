@@ -9,6 +9,12 @@
 #define NODE_H
 #include "course.h"
 
+
+/**@file node.h
+  *@author Matthew Aberegg
+  *@brief a description
+**/
+
 class node{
     public:
 	typedef course value_type;

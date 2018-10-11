@@ -8,6 +8,12 @@
 	John Dolan			Ohio University 
 ********************************************************************/
 
+
+/**@file tarray.h
+  *@author Matthew Aberegg
+  *@brief a description
+**/
+
 #include<iostream>
 
 template<class T>

@@ -12,6 +12,12 @@
 	John Dolan			Spring 2015
 **********************************************************/
 
+
+/**@file collegemain.cc
+  *@author Matthew Aberegg
+  *@brief a description
+**/
+
 #include <iostream>
 #include <fstream>
 #include <string>
